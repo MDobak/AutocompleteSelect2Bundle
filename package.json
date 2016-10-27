@@ -1,0 +1,19 @@
+{
+  "name": "mdobak-autocomplete-select2-bundle",
+  "version": "0.1.0",
+  "description": "",
+  "main": "Resources/public/js/select2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.0.0",
+    "select2": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "0.0.14"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "mdobak/autocomplete-select2-bundle",
+  "type": "symfony-bundle",
+  "description": "Select2 implementation for mdobak/autocomplete-widget-bundle",
+  "keywords": ["autocomplete", "select2", "symfony", "symfony2", "symfony3"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michał Dobaczewski",
+      "email": "mdobak@gmail.com"
+    }
+  ],
+  "require": {
+    "mdobak/autocomplete-widget-bundle": "dev-master#0e1d9cdd785df25dbc09c400c26b815e5ad89e33"
+  },
+  "require-dev": {
+    "symfony/framework-bundle": "^2.7 || ^3.0",
+    "symfony/validator": "^2.7 || ^3.0",
+    "symfony/twig-bundle": "^2.7 || ^3.0",
+    "symfony/dom-crawler": "^2.7 || ^3.0",
+    "symfony/dependency-injection": "^2.7 || ^3.0",
+    "symfony/phpunit-bridge": "^2.7 || ^3.0",
+    "symfony/console": "^2.7 || ^3.0",
+    "symfony/finder": "^2.7 || ^3.0",
+    "symfony/routing": "^2.7 || ^3.0",
+    "symfony/process": "^2.7 || ^3.0",
+    "doctrine/doctrine-bundle": "^1.4",
+    "doctrine/orm": "^2.3",
+    "behat/behat": "~3.0",
+    "behat/mink": "~1.5",
+    "behat/mink-selenium2-driver": "^1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mdobak\\AutocompleteSelect2Bundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mdobak\\AutocompleteSELECT2Bundle\\Tests\\": "Tests/"
+    }
+  }
+}

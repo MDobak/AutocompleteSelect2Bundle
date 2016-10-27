@@ -1,0 +1,5 @@
+{% block mdobak_autocomplete_select2_form_widget %}
+    {%- set attr = attr|merge({class: (attr.class is defined ? (attr.class~' ') : '')~'mdobak-autocomplete-select2'}) -%}
+
+    {{ block('mdobak_autocomplete_core_widget') }}
+{% endblock %}
