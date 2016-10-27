@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "mdobak/autocomplete-widget-bundle": "dev-master#0e1d9cdd785df25dbc09c400c26b815e5ad89e33"
+    "mdobak/autocomplete-widget-bundle": "dev-master"
   },
   "require-dev": {
     "symfony/framework-bundle": "^2.7 || ^3.0",
